@@ -1,5 +1,6 @@
 #include <zephyr/kernel.h>
 #include "battery.h"
+#include "util.h"
 
 #define OFFSET_X 29
 #define OFFSET_Y 37
