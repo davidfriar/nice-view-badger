@@ -1,3 +1,4 @@
+#pragma once
 /*
  *
  * Copyright (c) 2023 The ZMK Contributors
