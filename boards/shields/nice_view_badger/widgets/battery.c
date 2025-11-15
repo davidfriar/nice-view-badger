@@ -38,7 +38,7 @@ void draw_battery_status(lv_obj_t *canvas, const struct status_state *state) {
 
     lv_canvas_draw_text(canvas, 0, y, w, &label_dsc, text);
 
-    if (state->usb_present) {
+    if (state->charging) {
         lv_canvas_draw_img(canvas, OFFSET_X, OFFSET_Y, &bolt, &img_dsc);
     }
 }
